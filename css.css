@@ -1,0 +1,128 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:#f8f8f8;
+}
+
+ul {
+    list-style-type: none;
+    padding-left:20px;
+}
+.custom-header {
+    padding:10px;
+}
+
+.custom-header-data  .custom-description {
+    margin-bottom:10px;
+}
+.custom-header-data .custom-description h2 {
+    margin-bottom:0;
+}
+.custom-header-data .custom-description p {
+    color: #ff5722;
+    font-size:24px;
+}
+.custom-header-data .custom-description em {
+    color:#989898;
+}
+
+.custom-personal-data p{
+    font-size:16px;
+    color: #989898;
+}
+.col-img {
+    max-height: 240px;
+    overflow: hidden;
+}
+
+.work-networks a, .work-print-networks a {
+    text-decoration:none;
+    color: #000000;
+    margin-left:10px;
+}
+
+.language-level {
+    color: #ff5722;
+}
+.work-print-networks {
+    display:none;
+}
+.custom-body {
+    margin-top:20px;
+}
+
+.custom-experience {
+    padding:10px;
+    border-bottom:1px solid #EAEAEA;
+}
+
+.custom-block-interesting h5 {
+    border-bottom: 1px solid #EAEAEA;
+    color: #989898;
+    text-transform: uppercase;
+}
+
+.title h4 {
+    background: #ff5722;
+    color: #ffffff;
+    padding:5px;
+}
+
+.custom-block-experience .title {
+    margin-bottom: 15px;
+}
+.custom-block-interesting .title {
+    margin-bottom:20px;
+}
+
+.custom-block-other {
+    margin-top:50px;
+}
+
+.custom-experience ul {
+    padding-left:0;
+}
+
+.custom-experience small {
+    color: #989898;
+}
+
+@media print {
+    body {
+        background-color: #ffffff;
+    }
+
+    .col-img {
+        max-height:275px;
+        overflow:hidden;
+    }
+
+    .work-networks {
+        display:none;
+    }
+
+    .work-print-networks {
+        display: inline-block;
+        margin-top:15px;
+        width: 100% !important;
+    }
+
+    .network-separator {
+        margin-left:35px;
+    }
+
+    .custom-menu-languages {
+        margin-top:15px;
+    }
+
+    a {
+        text-decoration:none !important;
+        color: #000000;
+    }
+
+    .title h4 {
+        background: #ff5722 !important;
+        color: #ffffff !important;
+        padding:5px;
+        -webkit-print-color-adjust: exact;
+    }
+}
